@@ -101,3 +101,10 @@ hr{
 .secound-bannar-d{
   width: 50%;
 }
+.third-bannasr-a{
+  text-align: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
