@@ -1,9 +1,7 @@
 body{
   font-family: 'Mingzat', sans-serif;
 }
-*{ 
-  margin: 0;
- }  
+
 .lets-help{
   text-align: center;
  padding-top: 2cm;
@@ -25,10 +23,9 @@ body{
 .image{
   background-image: url("./images/donation1.jpg");
   background-repeat: no-repeat;
-  /* background-size: 1100px 400px; */
   background-size:cover;
   height: 500px;
-  margin: auto;
+  margin:auto;
   margin-bottom:30px ;
   padding-top: 85px;
   
@@ -128,6 +125,27 @@ hr{
 }
 #food-color-three{
   background-color:rgb(191, 228, 116);
+}
+/* 4.0 banar */
+.main-part{
+    margin-top: 80px;
+    display: flex;
+}
+.text-part{
+    width: 40%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 20px;
+    color: rgb(85, 78, 78);
+    text-align: justify;
+}
+.contribute-button{
+    text-decoration:none;
+    padding: 10px 15px;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 10px;
+    margin-bottom: 60px;
 }
 /* 4. fourth bannar*/
 .fourth-bannar-sec{
