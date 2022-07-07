@@ -1,16 +1,103 @@
+body{
+  font-family: 'Mingzat', sans-serif;
+}
+/* *{ 
+  margin: 0;
+ }  */
 .lets-help{
   text-align: center;
  padding-top: 2cm;
  color: white;
+ font-size:40px ;
+
 
 }
 .more-in{
   text-align: center;
   color: white;
-  
+  font-size:40px ;
 }
+.bannar-p{
+  color: white;
+  text-align: center;
+}
+
 .image{
   background-image: url(/images/donation1.jpg);
   background-repeat: no-repeat;
+  /* background-size: 1100px 400px; */
+  background-size:cover;
+  height: 500px;
+  margin: auto;
+  margin-bottom:30px ;
+  padding-top: 85px;
+  /* width:100%;
+  padding-top:50px;
+  */
+
+}
+.center{
+  text-align: center;
+}
+.donate-button{
+ 
+  color:lightgoldenrodyellow;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color:tomato;
+  border: oldlace;
+  border-radius: 5px;
   
+}
+/* 2.secound bannar */
+#black{
+  color: black;
+  font-size: 30px;
+}
+.donate-today{
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  color: gray;
+
+}
+.secound-bannar-a{
+  display: flex;
+  justify-content: center;
+}
+.secound-bannar-b{
+  display:flex;
+  text-align:center;
+}
+.money-part{
+  padding: 20px 25px;
+  margin: 20px;
+  color: gray;
+  background-color: rgb(247, 241, 241);
+  font-size: 20px;
+
+}
+#money-id{
+  color: tomato;
+  border: 1px solid tomato;
+  background-color:rgb(248,221,221) ;
+}
+.secound-bannar-c{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+#grey{
+  color: grey;
+}
+
+hr{
+  margin-bottom: 30px;
+  color: grey;
+}
+.secound-bannar-d{
+  width: 50%;
 }
